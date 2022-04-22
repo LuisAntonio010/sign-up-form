@@ -1,25 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /*font-family: 'Roboto', sans-serif; */
 }
+
 
 body {
     display: flex;
+
 }
 
 .imageSidebar{
     display: flex;
     height: 100vh;
+    justify-content: center;
+    width: 20rem;
+}
+
+.sideImage{
+    width: 20rem;
 }
 
 
 .mainPageContainer{
     display: flex;
-    background-color: antiquewhite;
     flex: 1;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+
 }
 
 form{
@@ -27,20 +37,58 @@ form{
     flex-direction: column;
     height: 100vh;
     justify-content: space-evenly;
-    align-items: stretch;
-    
+    align-items: stretch;  
+    flex: 1;
+    background-color: rgb(243, 241, 241);
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.formHeader {
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    font-size: 1.35rem;
+    font: bold;
     
 }
 
 .formMain{
     font-size: 1.5rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px   20px;
-    
+    flex-direction: column;
+    gap: 1.75rem;    
+    background-color: white;
+    padding-left: 5rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0px 1px 1px 0px rgb(2, 2, 2);
+
+}
+
+.secondLine, .thirdLine, .fourthLine {
+    display: flex;
+    gap: 10rem;
+    font-size: 1rem;
+}
+
+.formFooter{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+button {
+    background-color: #596d48;
+    width: 10rem;
+    height: 3rem;
+    color: white;
 }
 
 input,label{
     display: flex;
     flex-direction: column;
+    width: 12.5rem;
 }
