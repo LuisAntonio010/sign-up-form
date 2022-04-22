@@ -9,7 +9,6 @@
 
 body {
     display: flex;
-
 }
 
 .imageSidebar{
@@ -17,10 +16,12 @@ body {
     height: 100vh;
     justify-content: center;
     width: 20rem;
+    position: relative;
 }
 
 .sideImage{
     width: 20rem;
+    position: relative;
 }
 
 
